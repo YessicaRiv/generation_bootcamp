@@ -1,0 +1,53 @@
+/*selector de etiqueta*/
+/*elemento html {
+} */
+
+
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 1px solid red
+    border-radius: 10px;
+}
+
+
+/*selector de ID*/
+#forma{
+    width: 100px;
+        height: 100px;
+        background-color: aqua;
+}
+
+
+body{
+    background-color: rgb(226, 188, 188);
+}
+
+.color-texto{
+    color: rgb(red, green, blue);
+    background-color: blanchedalmond;
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+
+
+.borde {
+    /*border: 3px solid black;*/
+    border-top: 3px solid green;
+    border-right: 3px solid red;
+    border-bottom: 3px solid black;
+    border-left: 3px solid blue;
+    text-align: center;
+    line-height: 100px;
+}
+
+p{
+    font-family: cursive;
+    font-size: 30px
+    font-weight: 100;
+}

@@ -1,0 +1,8 @@
+.borde {
+    /*border: 3px solid black;*/
+    border-top: 3px solid rosybrown;
+    border-right: 3px solid orange;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    text-align: center;
+    line-height: 100px;
