@@ -1,0 +1,20 @@
+.forma {
+
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    background-color:rgb(31, 87, 31);
+}
+
+.formafrase {
+
+ font-size: 15px;
+  color: antiquewhite;
+  font-family:'Courier New', Courier, monospace
+
+}
+
+.forma3{
+    font-size: 18;
+    color: goldenrod;
+}

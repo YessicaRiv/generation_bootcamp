@@ -1,0 +1,29 @@
+
+.formulario {
+    border: 5px solid blueviolet;
+    padding: 10px;
+    background-color: rgb(117, 100, 133);
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.colorFondo{
+    background-color: rgb(50, 126, 73);
+    border: none;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+
+.btn-enviar {
+    background-color: darkred;
+    border: none;
+    color: beige;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.acomodolabel {
+    display: inline-block;
+    width: 100px;
+}
