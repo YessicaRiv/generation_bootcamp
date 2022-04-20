@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    position: relative;
+}
+
+
+
+.cuadro {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /*display: inline-block;*/
+}
+
+
+/*
+bottom
+top
+left
+right
+*/
+
+h1 {
+   /* position: relative;
+    top: 100px
+    z-index: -1; */
+}
+
+
+.div1 {
+    background-color: blueviolet;
+    position: static;
+    bottom: 0;
+}
+
+.div2 {
+    background-color: dodgerblue;
+    position: sticky;
+    top: 100px;
+    
+    
+}
+.div3 {
+    background-color: green;
+}
+
+.padre {
+    width: 500px;
+    height: 400px;
+    /*position: relative;*/
+}
+
