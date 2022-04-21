@@ -1,17 +1,26 @@
 .Datos {
-
-    border: 5px solid rgb(128, 168, 187);
-    padding: 10px;
-    background-color: rgb(16, 119, 38);
-    border-radius: 10px;
-    width: 300px;
-    margin: 0 auto;
+    background-color: green;
+    color: white;
+   
+    
 }
 
 .Nombre1 {
-    
-    
-    
+display: inline-block;
+width: 80px;
 }
 
+.acomodoLabel {
+    display: inline-block;
+    width: 80px;
+}
 
+input {
+    border: 1px solid red;
+}
+
+.boton {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: ;
+}
