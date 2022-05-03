@@ -56,3 +56,22 @@ db.forEach(objeto => {
 
 });
 
+
+console.log(db);
+
+
+
+//JSON
+//stringify
+
+
+const dbJSON = JSON.parse(db);
+
+//convertir un objeto JSON a un String
+
+console.log(dnJSON);
+
+//convertir nuevamente a un JSON
+console.log(JSON.parse(dbJSON));
+//convierte una cadena
+
