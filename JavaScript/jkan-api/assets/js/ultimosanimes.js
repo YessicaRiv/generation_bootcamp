@@ -2,7 +2,7 @@ const urlUltimos = "https://api.jikan.moe/v4/seasons/now"
 const ultimosAnimes = document.getElementById("ultimosAnimes")
 
 fetch(urlUltimos).then(resp => resp.json()).then(datos =>{
-    console.log(datos.data);
+    /*console.log(datos.data); */
 
     const arregloAnimesUltimos = datos.data.slice(0,20)
     /*console.log(arregloAnimesUltimos); */
@@ -19,6 +19,7 @@ fetch(urlUltimos).then(resp => resp.json()).then(datos =>{
 
         const template = 
         <div class="col mb-4">
+          <a href="informacion.html?id=${datosNecesarios.id}">
           <div class="card">
             <img src="${datosNecesarios.imagen}" class="card-img-top" alt="...">
             <div class="card-body">

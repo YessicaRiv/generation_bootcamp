@@ -13,7 +13,23 @@ fetch(urlBusqueda).then(resp => resp.json()).then(datos => {
 
         const datosNecesarios = {
             nombre:resultado.title
-            imagen:images.jpg.image_url
+            imagen: resultado.images.jpg.image_url
         }
+
+        const template = 
+        <div class="container">
+          <div class = "row">
+              <div class = "col-3">
+                  </div>
+                  <div class = "col-9">
+                      <h2>
+                          Ultimos animes
+                      </h2>
+
+
+                      busquedaAnimes.innerHTML += template
+                      console.log();
+
+
     })
 })
