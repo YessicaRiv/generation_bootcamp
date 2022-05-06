@@ -72,8 +72,8 @@ console.log(persona3);
 console.log(persona1.saludar);
 console.log(persona2.saludar);
 
-console.log(persona1.mostrarSaludo);
-console.log(persona2.mostrarSaludo);
+console.log(persona1.mostrarSaludo());
+console.log(persona2.mostrarSaludo());
 
 
 
