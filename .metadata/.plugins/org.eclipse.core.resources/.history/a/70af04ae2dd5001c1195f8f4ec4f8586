@@ -1,0 +1,23 @@
+package javabasicp;
+
+public class cicloWhile {
+	
+	public static void main(String[]args) {
+		//while
+		int condicion = 0;
+		
+		while(condicion <5) {//mientras que
+			
+			System.out.printIn("Hola");
+			
+			condicion++;
+		}
+	}
+} */
+
+
+//verificar contraseña 
+
+String clave = "Pedro";
+
+String comparacion = "";
