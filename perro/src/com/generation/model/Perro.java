@@ -87,8 +87,8 @@ public class Perro {
 		Perro.humano.put(this.id, value); 
 	}
 	
-	public static String getHumano(Integer key) {
-		return humano.get(key);
+	public static String buscarHumano(Integer key) {
+		
 	}
 	
 	

@@ -13,6 +13,7 @@ public class PruebaPerro {
 		
 		pelusa.setHumano("Pedro");
 		solovino.setHumano("Daniel");
+		
 	
 		
 		System.out.println(pelusa);
@@ -21,6 +22,8 @@ public class PruebaPerro {
 		pelusa.comer();
 		
 		
+		System.out.println(Perro.buscarHumano(2));
+		System.out.println(Perro.buscarHumano(1));
 		
 		
 		
